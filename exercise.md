@@ -9,6 +9,12 @@ sample.md を参考にして，記述を追加せよ．
 |数式の意味|数式|
 |----|----|
 | クーロンの公式 | $$ F = k\frac{q_1 q_2}{r^2}$$ ||
+|半別式 | $$D=b^2-4ac$$
+|$sin$の倍角の公式|$$\sin3\theta=3\sin\theta-4sin^3\theta  $$
+|導関数の定義|　$$ f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}{h} $$
+|$x^2$の不定積分| $$\int x^2dx=\frac{x^3}{3}+C(C\text{ は積分定義}) $$
+|$n $ 個の中から$m$を取り出す組み合わせ数|$$\binom{n}{m}=\frac{n!}{m!(n-m)!} $$||
+|行列式|$$\begin{vmatrix}a & b \\ c & d \end{vmatrix}=ad-bc $$
 
 
 ## 複数行の数式の等号の位置を揃える
@@ -18,8 +24,10 @@ sample.md を参考にして，記述を追加せよ．
 $$
 \begin{aligned}
 y &= (x + 2)^2(x - 2)^2x \\
-&= \\
-&= 
+&=(x^2-4)^2x\\
+&= (x^4-8x^2+16)x\\
+&=x^5-8x^3+16x\\
+
 \end{aligned}
 $$
 
